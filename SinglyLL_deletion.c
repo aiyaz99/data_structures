@@ -84,7 +84,7 @@ void displayList(struct Node* head) {
     printf("NULL\n");
 }
 
-// Function to insert a node at the end
+
 void insertAtEnd(struct Node** head, int data) {
     struct Node* newNode = createNode(data);
     if (*head == NULL) {
